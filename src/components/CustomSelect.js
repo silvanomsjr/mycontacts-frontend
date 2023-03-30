@@ -11,7 +11,7 @@ export const CustomSelect = styled.select`
   font-size: 16px;
   box-shadow: 0px 5px 10px rgba(0,0,0,0.02);
   transition: border-color 0.2s ease-in;
-
+  appearance: none;
 
   &:focus{
     border-color: ${({ theme }) => theme.colors.primary.main};

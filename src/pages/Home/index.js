@@ -3,6 +3,9 @@ import {
   Container, Header, ListContainer, Card, InputSearchContainer,
 } from './styles';
 
+// import Modal from '../../components/Modal';
+// import Loader from '../../components/Loader';
+
 import arrow from '../../assets/icons/arrow.svg';
 import edit from '../../assets/icons/edit.svg';
 import thrash from '../../assets/icons/thrash.svg';
@@ -10,14 +13,15 @@ import thrash from '../../assets/icons/thrash.svg';
 function Home() {
   return (
     <Container>
-
+      {/* <Loader />
+      <Modal danger /> */}
       <InputSearchContainer>
         <input type="text" />
       </InputSearchContainer>
 
       <Header>
         <strong>3 contatos</strong>
-        <a href="/">Novo contato</a>
+        <Link to="/new">Novo contato</Link>
       </Header>
 
       <ListContainer>

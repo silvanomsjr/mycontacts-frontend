@@ -1,7 +1,11 @@
 import FormContact from '../../components/FormContact';
+import PageHeader from '../../components/PageHeader';
 
 export default function NewContact() {
   return (
-    <FormContact btnText="Cadastrar" />
+    <>
+      <PageHeader title="Novo contato" />
+      <FormContact btnText="Cadastrar" />
+    </>
   );
 }
